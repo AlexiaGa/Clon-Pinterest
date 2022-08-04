@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.botones1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 12px;
+    color: rgb(33, 25, 34);
+    display: flex;
+    justify-content:start;
+    align-content: stretch;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.iconos {
+  display: flex;
+  justify-content: end;
+}
+
+.iconos button {
+  background-color: transparent;
+}
+
+.inicio {
+    border-radius: 30px;
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+    height: 3rem;
+    margin-left: 20px;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.hoy, .crear {
+    background-color: #fff;
+    margin-left: 20px;
+    font-size: 1rem;
+    font-weight: 30px;
+}
+
+.buscar {
+    background-color:#efefef;
+    margin-top: 30px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 30px;
+    border-radius: 50px;
+    padding-left: 30px;
+    height: 50px;
+    width: 40rem;
+
+}
+
+.notificacion, .chat, .user{
+  height: 40px;
+  width: 40px;
+  background-color: none;
+}
+
+* {
+  border: 0px;
+  margin: 0px;
+  /* tanto el padding como el border y el margin ocupan el total la medidad del contenedor */
+  box-sizing: border-box;
+}
+
+*:after, *:before{
+  box-sizing: inherit;  
+}
+
+nav{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 15.75rem;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.contenedor-imagen {
+  columns: 5;
+}
+
